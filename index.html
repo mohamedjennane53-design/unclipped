@@ -3,20 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Unclipped: find stream moments with no Twitch clips yet</title>
-<meta name="description" content="Windows app for clippers. Paste a Twitch or YouTube VOD link: Unclipped finds the spikes in voice and chat reactions and shows how many Twitch clips already cover each one. Runs on your PC.">
+<title>Unclipped: Twitch clipping tool to find VOD moments with no clips yet</title>
+<meta name="description" content="Twitch clipping tool for Windows. Find the VOD moments with no Twitch clips yet, from Just Chatting to GTA 6 streams, then export them to Premiere Pro, DaVinci Resolve or CapCut. Free version available.">
 <link rel="canonical" href="https://mohamedjennane53-design.github.io/unclipped/">
 <meta name="theme-color" content="#0E0F11">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Unclipped">
-<meta property="og:title" content="Unclipped: find stream moments with no Twitch clips yet">
-<meta property="og:description" content="Windows app for clippers. Finds the spikes in voice and chat reactions in a VOD and shows how many Twitch clips already cover each one.">
+<meta property="og:title" content="Unclipped: Twitch clipping tool to find VOD moments with no clips yet">
+<meta property="og:description" content="Twitch clipping tool for Windows. Find the VOD moments with no Twitch clips yet, from Just Chatting to GTA 6 streams, then export them to Premiere Pro, DaVinci Resolve or CapCut. Free version available.">
 <meta property="og:url" content="https://mohamedjennane53-design.github.io/unclipped/">
 <meta property="og:image" content="https://mohamedjennane53-design.github.io/unclipped/assets/img/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="The Unclipped results screen, with a moment marked No Twitch clips yet">
+<meta property="og:image:alt" content="The Unclipped home screen: Find the stream moments with no Twitch clips yet.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Unclipped: Twitch clipping tool to find VOD moments with no clips yet">
+<meta name="twitter:description" content="Twitch clipping tool for Windows. Find the VOD moments with no Twitch clips yet, from Just Chatting to GTA 6 streams, then export them to Premiere Pro, DaVinci Resolve or CapCut. Free version available.">
+<meta name="twitter:image" content="https://mohamedjennane53-design.github.io/unclipped/assets/img/og.png">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -37,7 +40,7 @@
       <a href="#how-it-works">How it works</a>
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
-      <a class="btn btn-primary" href="#download">Download for Windows</a>
+      <a class="btn btn-primary" href="#download-link">Download free for Windows</a>
     </nav>
     <details class="menu">
       <summary>Menu</summary>
@@ -45,7 +48,7 @@
         <a href="#how-it-works">How it works</a>
         <a href="#pricing">Pricing</a>
         <a href="#faq">FAQ</a>
-        <a href="#download">Download for Windows</a>
+        <a href="#checkout-link">Get Pro — 39 €</a>
       </nav>
     </details>
   </div>
@@ -57,30 +60,53 @@
     <div class="wrap">
       <h1 id="hero-title">Find the stream moments with no Twitch clips yet.</h1>
       <div class="hero-body">
-        <p>Paste a Twitch or YouTube VOD link. Unclipped finds the spikes in the streamer’s voice and in chat reactions, then shows how many Twitch clips already cover each one. You pick the moments and export them to your editor.</p>
+        <p>Fewer duplicates, more views. Unclipped finds the voice and chat spikes in a VOD and shows which ones already have Twitch clips.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#download">Download for Windows</a>
-          <a class="btn btn-secondary" href="#pricing">Get Pro</a>
+          <div class="cta-main">
+            <a class="btn btn-primary" href="#download-link">Download free for Windows</a>
+            <p class="cta-note">Windows 10/11 · Free version, no account needed.</p>
+          </div>
+          <a class="btn btn-secondary" href="#checkout-link">Get Pro — 39 €</a>
         </div>
-        <p class="hero-note">A Windows app that runs on your PC. Not available for Mac or Linux yet.</p>
+        <a class="btn btn-secondary btn-demo" href="assets/video/demo-40s.mp4" data-demo aria-haspopup="dialog">Watch the demo (40 s)</a>
       </div>
-      <figure class="shot hero-shot">
-        <picture>
-          <source media="(max-width: 599px)" srcset="assets/img/step-pick.webp" type="image/webp" width="829" height="1100">
-          <source media="(max-width: 599px)" srcset="assets/img/step-pick.png" type="image/png" width="829" height="1100">
-          <source srcset="assets/img/results.webp" type="image/webp">
-          <img src="assets/img/results.png" width="2000" height="1225" fetchpriority="high"
-               alt="The Unclipped results screen. On the right, a list of 30 moments, the default number; moment #3 at 4:07:14 is selected and marked No Twitch clips yet, the others show 7 and 2 Twitch clips. Each card shows why the moment came up, such as Chat exploded: DEAL, and tags like Chat in caps and Many chatters. On the left, the video preview, a trim bar from 4:07:14 to 4:07:46, and the hype curve of the whole stream.">
-        </picture>
-        <figcaption>The real results screen, on a 4 h 39 min public Twitch stream. The video, the stream title and the clip titles are blurred on this page.</figcaption>
+      <figure class="hero-video">
+        <video class="hero-loop" autoplay muted loop playsinline preload="none" width="1280" height="720"
+               poster="assets/img/hero-poster.jpg"
+               aria-label="10-second loop of the Unclipped app: a VOD link is pasted, moments appear, one is marked No Twitch clips yet, then it is exported.">
+          <source data-src="assets/video/hero-loop.webm" type="video/webm">
+          <source data-src="assets/video/hero-loop.mp4" type="video/mp4">
+        </video>
+        <button class="loop-toggle" type="button" aria-pressed="false" hidden>Pause</button>
+        <figcaption>The real app, in a 10-second loop with no sound.</figcaption>
       </figure>
     </div>
+  </section>
 
+  <section class="section why" id="why" aria-labelledby="why-title">
+    <div class="wrap why-grid">
+      <h2 id="why-title">Why duplicates hurt</h2>
+      <div>
+        <p>When dozens of clippers post the same moment, platforms bury the copies. Unclipped shows which moments have no Twitch clips yet, so you choose knowing what’s already out there.</p>
+        <p>It scans the whole VOD — including the last hours most clippers skip.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section proof" aria-labelledby="curve-title">
     <div class="wrap">
       <figure class="curve" aria-labelledby="curve-title">
         <div class="curve-head">
-          <h2 id="curve-title">The same stream, measured second by second</h2>
+          <h2 id="curve-title">One real stream, measured second by second</h2>
           <p>Gray bars are voice and chat activity. Unclipped proposed 30 moments, the default number; when we checked on 19 November 2026, 5 of them had no Twitch clips yet.</p>
+        </div>
+        <div class="shot proof-shot">
+          <picture>
+            <source srcset="assets/img/results.webp" type="image/webp">
+            <img src="assets/img/results.png" width="2000" height="1225" loading="lazy" decoding="async"
+                 alt="The Unclipped results screen. On the right, a list of 30 moments, the default number; moment #3 at 4:07:14 is selected and marked No Twitch clips yet, the others show 7 and 2 Twitch clips. Each card shows why the moment came up, such as Chat exploded: DEAL, and tags like Chat in caps and Many chatters. On the left, the video preview, a trim bar from 4:07:14 to 4:07:46, and the hype curve of the whole stream.">
+          </picture>
+          <p class="proof-caption">The results screen on a 4 h 39 min public Twitch stream. The video, the stream title and the clip titles are blurred on this page.</p>
         </div>
         <div class="curve-plot">
 <svg class="curve-svg" viewBox="0 0 1200 138" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="curve-bars" d="M1.5 120v-70.9M5.5 120v-103.1M9.5 120v-66.1M13.5 120v-61.1M17.5 120v-1.5M21.5 120v-1.5M25.5 120v-1.5M29.5 120v-1.5M33.5 120v-1.5M37.5 120v-1.5M41.5 120v-1.5M45.5 120v-1.5M49.5 120v-25.2M53.5 120v-48.4M57.5 120v-1.5M61.5 120v-1.5M65.5 120v-1.5M69.5 120v-1.5M73.5 120v-1.5M77.5 120v-1.5M81.5 120v-1.5M85.5 120v-1.5M89.5 120v-1.5M93.5 120v-1.5M97.5 120v-24.9M101.5 120v-2.6M105.5 120v-9.2M109.5 120v-17.1M113.5 120v-36.6M117.5 120v-40.7M121.5 120v-16.4M125.5 120v-9.4M129.5 120v-28.9M133.5 120v-36.8M137.5 120v-27.2M141.5 120v-49.7M145.5 120v-36.3M149.5 120v-43.4M153.5 120v-58.4M157.5 120v-41.9M161.5 120v-59.8M165.5 120v-57.5M169.5 120v-52.6M173.5 120v-29.2M177.5 120v-60.2M181.5 120v-51.7M185.5 120v-80.9M189.5 120v-50.7M193.5 120v-49.7M197.5 120v-89.2M201.5 120v-64.2M205.5 120v-63.5M209.5 120v-48.4M213.5 120v-31.0M217.5 120v-46.9M221.5 120v-42.5M225.5 120v-54.4M229.5 120v-54.6M233.5 120v-56.8M237.5 120v-79.2M241.5 120v-68.1M245.5 120v-63.9M249.5 120v-72.5M253.5 120v-43.1M257.5 120v-60.4M261.5 120v-58.0M265.5 120v-69.0M269.5 120v-37.3M273.5 120v-26.7M277.5 120v-38.0M281.5 120v-39.4M285.5 120v-53.6M289.5 120v-35.8M293.5 120v-83.0M297.5 120v-65.3M301.5 120v-45.0M305.5 120v-34.4M309.5 120v-20.6M313.5 120v-60.8M317.5 120v-73.4M321.5 120v-85.5M325.5 120v-49.0M329.5 120v-69.1M333.5 120v-104.0M337.5 120v-80.6M341.5 120v-75.0M345.5 120v-99.9M349.5 120v-99.5M353.5 120v-75.1M357.5 120v-117.5M361.5 120v-86.5M365.5 120v-50.0M369.5 120v-61.7M373.5 120v-93.1M377.5 120v-95.3M381.5 120v-52.4M385.5 120v-71.4M389.5 120v-93.3M393.5 120v-63.3M397.5 120v-97.2M401.5 120v-29.8M405.5 120v-90.5M409.5 120v-81.5M413.5 120v-39.4M417.5 120v-76.9M421.5 120v-75.0M425.5 120v-47.1M429.5 120v-45.1M433.5 120v-70.7M437.5 120v-73.5M441.5 120v-76.9M445.5 120v-82.7M449.5 120v-69.9M453.5 120v-89.8M457.5 120v-31.4M461.5 120v-79.9M465.5 120v-71.5M469.5 120v-59.8M473.5 120v-80.3M477.5 120v-64.3M481.5 120v-62.7M485.5 120v-117.0M489.5 120v-89.2M493.5 120v-85.4M497.5 120v-120.0M501.5 120v-89.6M505.5 120v-77.0M509.5 120v-74.1M513.5 120v-104.2M517.5 120v-75.3M521.5 120v-72.3M525.5 120v-25.0M529.5 120v-69.0M533.5 120v-72.0M537.5 120v-43.0M541.5 120v-66.4M545.5 120v-52.1M549.5 120v-38.2M553.5 120v-75.5M557.5 120v-66.1M561.5 120v-49.6M565.5 120v-79.0M569.5 120v-69.1M573.5 120v-85.4M577.5 120v-17.1M581.5 120v-63.8M585.5 120v-55.1M589.5 120v-50.7M593.5 120v-46.0M597.5 120v-48.3M601.5 120v-44.2M605.5 120v-88.9M609.5 120v-54.5M613.5 120v-1.5M617.5 120v-1.5M621.5 120v-1.5M625.5 120v-24.0M629.5 120v-103.1M633.5 120v-56.7M637.5 120v-54.1M641.5 120v-70.3M645.5 120v-46.4M649.5 120v-20.1M653.5 120v-57.4M657.5 120v-81.3M661.5 120v-51.8M665.5 120v-23.9M669.5 120v-33.7M673.5 120v-80.8M677.5 120v-103.9M681.5 120v-66.0M685.5 120v-95.0M689.5 120v-91.1M693.5 120v-80.0M697.5 120v-63.6M701.5 120v-81.7M705.5 120v-67.6M709.5 120v-68.7M713.5 120v-93.8M717.5 120v-88.3M721.5 120v-60.8M725.5 120v-17.5M729.5 120v-31.1M733.5 120v-91.2M737.5 120v-85.5M741.5 120v-88.9M745.5 120v-85.7M749.5 120v-72.8M753.5 120v-98.6M757.5 120v-86.3M761.5 120v-76.8M765.5 120v-72.5M769.5 120v-45.3M773.5 120v-57.0M777.5 120v-77.0M781.5 120v-69.5M785.5 120v-69.6M789.5 120v-54.7M793.5 120v-33.5M797.5 120v-47.5M801.5 120v-58.9M805.5 120v-43.6M809.5 120v-74.5M813.5 120v-98.3M817.5 120v-89.2M821.5 120v-58.2M825.5 120v-43.7M829.5 120v-61.1M833.5 120v-72.2M837.5 120v-48.9M841.5 120v-53.5M845.5 120v-59.3M849.5 120v-59.6M853.5 120v-56.3M857.5 120v-83.8M861.5 120v-73.9M865.5 120v-83.5M869.5 120v-66.6M873.5 120v-87.9M877.5 120v-107.0M881.5 120v-58.3M885.5 120v-73.9M889.5 120v-71.4M893.5 120v-85.2M897.5 120v-88.6M901.5 120v-47.8M905.5 120v-83.1M909.5 120v-74.4M913.5 120v-72.5M917.5 120v-55.0M921.5 120v-65.2M925.5 120v-83.8M929.5 120v-79.2M933.5 120v-107.7M937.5 120v-67.0M941.5 120v-67.9M945.5 120v-73.8M949.5 120v-83.6M953.5 120v-72.2M957.5 120v-60.0M961.5 120v-81.1M965.5 120v-85.3M969.5 120v-82.2M973.5 120v-60.9M977.5 120v-39.8M981.5 120v-1.5M985.5 120v-1.5M989.5 120v-43.8M993.5 120v-84.1M997.5 120v-77.5M1001.5 120v-84.9M1005.5 120v-77.5M1009.5 120v-97.7M1013.5 120v-103.3M1017.5 120v-70.1M1021.5 120v-92.6M1025.5 120v-103.3M1029.5 120v-96.3M1033.5 120v-84.0M1037.5 120v-91.9M1041.5 120v-80.3M1045.5 120v-80.6M1049.5 120v-80.3M1053.5 120v-64.7M1057.5 120v-61.0M1061.5 120v-116.7M1065.5 120v-46.3M1069.5 120v-52.0M1073.5 120v-73.3M1077.5 120v-21.3M1081.5 120v-27.3M1085.5 120v-23.0M1089.5 120v-20.8M1093.5 120v-24.2M1097.5 120v-18.8M1101.5 120v-18.1M1105.5 120v-1.5M1109.5 120v-14.5M1113.5 120v-36.6M1117.5 120v-21.0M1121.5 120v-26.8M1125.5 120v-29.3M1129.5 120v-24.8M1133.5 120v-26.1M1137.5 120v-67.9M1141.5 120v-38.2M1145.5 120v-23.4M1149.5 120v-18.1M1153.5 120v-57.6M1157.5 120v-51.8M1161.5 120v-52.4M1165.5 120v-77.1M1169.5 120v-69.1M1173.5 120v-85.9M1177.5 120v-65.9M1181.5 120v-69.0M1185.5 120v-60.4M1189.5 120v-1.5M1193.5 120v-1.5M1197.5 120v-1.5"/><g class="curve-ticks"><path d="M485.3 128v8"/><path d="M498.8 128v8"/><path d="M358.8 128v8"/><path d="M1013.0 128v8"/><path d="M876.3 128v8"/><path d="M347.6 128v8"/><path d="M1024.2 128v8"/><path d="M932.6 128v8"/><path d="M714.7 128v8"/><path d="M1030.6 128v8"/><path d="M755.3 128v8"/><path d="M687.5 128v8"/><path d="M896.1 128v8"/><path d="M630.5 128v8"/><path d="M742.0 128v8"/><path d="M733.4 128v8"/><path d="M813.3 128v8"/><path d="M1036.6 128v8"/><path d="M866.1 128v8"/><path d="M1003.3 128v8"/><path d="M969.9 128v8"/><path d="M491.9 128v8"/><path d="M948.2 128v8"/><path d="M703.1 128v8"/><path d="M1040.8 128v8"/></g><g class="curve-marks"><path d="M331.7 1h-4v119h4M339.7 1h4v119h-4"/><path d="M386.3 1h-4v119h4M394.3 1h4v119h-4"/><path d="M509.6 1h-4v119h4M517.6 1h4v119h-4"/><path d="M674.9 1h-4v119h4M682.9 1h4v119h-4"/><path d="M1057.3 1h-4v119h4M1065.3 1h4v119h-4"/></g></svg>
@@ -186,9 +212,10 @@
 
   <section class="section live" id="live-mode" aria-labelledby="live-title">
     <div class="wrap live-grid">
-      <div>
+      <div class="live-card">
+        <p class="pro-badge">Pro</p>
         <h2 id="live-title">Live mode</h2>
-        <p>Follow a Twitch channel while it’s live. Unclipped watches the same voice and chat signals and saves each spike as you go.</p>
+        <p class="live-lead">Follow up to 2 live channels and catch spikes while the stream is still running.</p>
         <ul class="facts">
           <li><strong>Saved as an MP4</strong> on your PC about 20 seconds after the peak.</li>
           <li><strong>Twitch clips counted</strong> as viewers make them, updated every minute.</li>
@@ -196,7 +223,6 @@
           <li><strong>Two channels</strong> at the same time.</li>
           <li><strong>Twitch ads</strong> are never recorded into your moments.</li>
         </ul>
-        <p class="pro-note">Live mode is part of Pro.</p>
       </div>
       <figure class="shot">
         <picture>
@@ -240,8 +266,8 @@
         <h2 id="local-title">Runs on your PC</h2>
       </div>
       <ul class="local-list">
-        <li><strong>Nothing is uploaded</strong><span>The analysis runs on your computer. Your links, moments and exports stay on your PC. Unclipped only talks to Twitch (with your own Twitch account), YouTube, GitHub for tool updates, and the license service.</span></li>
-        <li><strong>No subscription</strong><span>The free version stays free. Pro is a one-time payment.</span></li>
+        <li><strong>Nothing is uploaded</strong><span>The analysis runs on your computer. Your links, moments and exports stay on your PC. Unclipped only talks to Twitch (with your own Twitch account), YouTube, GitHub for tool updates, and Polar for the license.</span></li>
+        <li><strong>No subscription</strong><span>The free version stays free, with no account. Pro is 39 € once.</span></li>
         <li><strong>Windows only for now</strong><span>There’s no Mac or Linux version yet.</span></li>
       </ul>
     </div>
@@ -255,25 +281,23 @@
           <p>Try it for free on one VOD a week. Pay once for everything else.</p>
         </div>
         <div class="table-scroll">
-          <!-- PRICES: the only place where prices are written on the site. -->
+          <!-- PRICES: Pro is 39 €. Also written in the "Get Pro — 39 €" buttons. -->
           <table class="pricing-table">
             <thead>
               <tr><th scope="col"><span class="sr-only">Feature</span></th><th scope="col">Free</th><th scope="col" class="col-pro">Pro</th></tr>
             </thead>
             <tbody>
-              <tr><th scope="row">Price</th><td><span class="price">0 €</span></td><td class="col-pro"><span class="price">39 €</span><span class="price-was">One-time payment, for life, with all v1.x updates. One license works on 2 PCs.</span><span class="price-was">Price includes VAT where applicable.</span></td></tr>
-              <tr><th scope="row">VOD analyses</th><td>1 per week. Your first analysis is complete, with everything unlocked.</td><td class="col-pro">Unlimited</td></tr>
+              <tr><th scope="row">Price</th><td><span class="price">0 €</span></td><td class="col-pro"><span class="price">39 €</span><span class="price-was">39 € once. Other clipping tools charge every month.</span><span class="price-was">Lifetime license with all v1.x updates.</span><span class="price-was">Price includes VAT where applicable.</span></td></tr>
+              <tr><th scope="row">VOD analyses</th><td>1 analysis per week (your first one fully unlocked)</td><td class="col-pro">Unlimited analyses</td></tr>
               <tr><th scope="row">Moments</th><td>10 of 20 moments unlocked</td><td class="col-pro">Up to 50 moments per analysis (30 by default)</td></tr>
-              <tr><th scope="row">Twitch clips per moment</th><td>How many moments have no Twitch clips, without saying which</td><td class="col-pro">Status on every moment</td></tr>
+              <tr><th scope="row">Twitch clip status</th><td>Counter: how many moments have no Twitch clips, without saying which</td><td class="col-pro">On every moment</td></tr>
               <tr><th scope="row">Hook ideas</th><td><span class="no" aria-hidden="true">—</span><span class="sr-only">Not included</span></td><td class="col-pro">Included</td></tr>
-              <tr><th scope="row">MP4 export</th><td>3 clips per VOD, 720p</td><td class="col-pro">Unlimited, 1080p</td></tr>
-              <tr><th scope="row">Premiere Pro and DaVinci Resolve</th><td><span class="no" aria-hidden="true">—</span><span class="sr-only">Not included</span></td><td class="col-pro">Included, 1080p</td></tr>
-              <tr><th scope="row">Vertical 9:16</th><td><span class="no" aria-hidden="true">—</span><span class="sr-only">Not included</span></td><td class="col-pro">Included</td></tr>
-              <tr><th scope="row">TikTok Rewards mode (61 s+)</th><td><span class="no" aria-hidden="true">—</span><span class="sr-only">Not included</span></td><td class="col-pro">Included</td></tr>
-              <tr><th scope="row">Live mode</th><td><span class="no" aria-hidden="true">—</span><span class="sr-only">Not included</span></td><td class="col-pro">Included</td></tr>
+              <tr><th scope="row">Exports</th><td>3 MP4 clips per VOD in 720p</td><td class="col-pro">All exports: Premiere Pro, DaVinci Resolve, MP4 in 1080p and 9:16, TikTok Rewards 61 s mode</td></tr>
+              <tr><th scope="row">Live mode</th><td><span class="no" aria-hidden="true">—</span><span class="sr-only">Not included</span></td><td class="col-pro">2 channels at once</td></tr>
+              <tr><th scope="row">PCs</th><td>1</td><td class="col-pro">2</td></tr>
             </tbody>
             <tfoot>
-              <tr><th scope="row"><span class="sr-only">Get it</span></th><td><a class="btn btn-secondary" href="#download">Download for Windows</a></td><td class="col-pro"><span class="btn btn-unavailable">Available at launch</span></td></tr>
+              <tr><th scope="row"><span class="sr-only">Get it</span></th><td><a class="btn btn-primary" href="#download-link">Download free for Windows</a><p class="cta-note">Windows 10/11 · Free version, no account needed.</p></td><td class="col-pro"><a class="btn btn-secondary" href="#checkout-link">Get Pro — 39 €</a></td></tr>
             </tfoot>
           </table>
         </div>
@@ -291,23 +315,39 @@
         </div>
         <div class="faq">
           <details>
+            <summary>Is anything uploaded?</summary>
+            <div><p>No. The analysis runs on your PC, and your links, moments and exports stay there. The app only connects to Twitch, YouTube, GitHub and Polar, as explained in the <a href="privacy.html">privacy policy</a>.</p></div>
+          </details>
+          <details>
+            <summary>Windows only?</summary>
+            <div><p>Yes, for now. There’s no Mac or Linux version yet.</p></div>
+          </details>
+          <details>
+            <summary>What does “no Twitch clips yet” mean?</summary>
+            <div><p>When you analyze a VOD, Unclipped checks the clips that already exist on Twitch for it. A moment marked No Twitch clips yet had none at that time. Only Twitch clips are counted, and the counts are minimums.</p></div>
+          </details>
+          <details>
+            <summary>Does it see TikTok or YouTube Shorts?</summary>
+            <div><p>No. Unclipped only sees clips made on Twitch. Reposts on TikTok, YouTube Shorts or anywhere else aren’t counted.</p></div>
+          </details>
+          <details>
+            <summary>Does it work with Kick?</summary>
+            <div><p>Not yet. Unclipped works with Twitch and YouTube VODs, and with video files on your PC.</p></div>
+          </details>
+          <details>
             <summary>Is it allowed to clip streams?</summary>
             <div><p>Use Unclipped on your own streams, or on streams you have permission to clip, like an authorized clipping campaign. Follow the rules of Twitch, YouTube and the platforms you post on.</p></div>
           </details>
           <details>
-            <summary>Does it see TikTok or YouTube Shorts?</summary>
-            <div><p>No. Unclipped only sees clips made on Twitch. Reposts on TikTok, YouTube Shorts or anywhere else aren’t counted, and the Twitch counts are minimums.</p></div>
-          </details>
-          <details>
-            <summary>Is there a Mac or Linux version?</summary>
-            <div><p>Not yet. Unclipped runs on Windows only for now.</p></div>
-          </details>
-          <details>
             <summary>Do I need a subscription?</summary>
-            <div><p>No. Pro is a one-time payment.</p></div>
+            <div><p>No. Pro is a one-time payment, and the free version needs no account.</p></div>
           </details>
           <details>
-            <summary>How do refunds work?</summary>
+            <summary>Can I use Pro on two PCs?</summary>
+            <div><p>Yes. One Pro license works on 2 PCs at the same time. To move it to another PC, deactivate it on one of the two in the app’s settings.</p></div>
+          </details>
+          <details>
+            <summary>Refunds?</summary>
             <div><p>Email us within 14 days of your purchase and you get a full refund through Polar. Details are in the <a href="refund.html">refund policy</a>.</p></div>
           </details>
           <details>
@@ -319,11 +359,28 @@
     </section>
   </div>
 
+  <!-- RESULTS: activate once there are real results (no invented testimonials, views or logos).
+  <section class="section" id="results" aria-labelledby="results-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="results-title">Results</h2>
+        <p>Real results from clippers, with their permission.</p>
+      </div>
+    </div>
+  </section>
+  -->
+
   <section class="section download" id="download" aria-labelledby="download-title">
     <div class="wrap">
-      <h2 id="download-title">Coming soon for Windows</h2>
-      <p>Unclipped isn’t available to download yet. Send us an email and we’ll write back on launch day.</p>
-      <a class="btn btn-primary" href="mailto:unclippedsupport@gmail.com?subject=Tell%20me%20when%20Unclipped%20launches">Email me at launch</a>
+      <h2 id="download-title">Try it on your next VOD</h2>
+      <p>Start with the free version. Your first analysis is fully unlocked.</p>
+      <div class="hero-actions">
+        <div class="cta-main">
+          <a class="btn btn-primary" href="#download-link">Download free for Windows</a>
+          <p class="cta-note">Windows 10/11 · Free version, no account needed.</p>
+        </div>
+        <a class="btn btn-secondary" href="#checkout-link">Get Pro — 39 €</a>
+      </div>
     </div>
   </section>
 
@@ -342,5 +399,16 @@
     <p class="footer-small">Payments are processed by Polar, our merchant of record. Twitch, YouTube, Premiere Pro, DaVinci Resolve, CapCut and TikTok are trademarks of their owners. Unclipped isn’t affiliated with them.</p>
   </div>
 </footer>
+
+<div class="sticky-cta">
+  <a class="btn btn-primary" href="#download-link">Download free for Windows</a>
+</div>
+
+<dialog class="demo-dialog" id="demo-dialog" aria-label="Unclipped demo, 40 seconds">
+  <button class="dialog-close" type="button" aria-label="Close the demo">×</button>
+  <video controls playsinline preload="none" width="1280" height="720" poster="assets/img/demo-poster.jpg" data-src="assets/video/demo-40s.mp4"></video>
+</dialog>
+
+<script src="assets/site.js" defer></script>
 </body>
 </html>
