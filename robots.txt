@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohamedjennane53-design.github.io/unclipped/sitemap.xml
